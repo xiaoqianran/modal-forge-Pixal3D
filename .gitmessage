@@ -1,0 +1,13 @@
+# <type>(<scope>): <subject>
+#
+# type: feat | fix | docs | style | refactor | perf | test | build | ci | chore | revert
+# scope: optional module or component, e.g. pipeline, inference, modal
+# subject: imperative, concise, no trailing period (recommended <= 50 characters)
+#
+# Body (optional): explain why and what changed; wrap lines at 72 characters.
+# Footer (optional): Closes #123 / Refs #123 / BREAKING CHANGE: details
+#
+# Examples:
+# fix(pipeline): reject images without visible foreground
+# feat(inference): add multi-view image support
+# chore(modal): pin CUDA dependencies
